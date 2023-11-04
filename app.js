@@ -10,7 +10,7 @@ const _Error = require("./utils/_error");
 const origin = [
   "http://localhost:3000",
   "http://localhost:5173",
-  "https://imdb-lets-upgrade.netlify.app/",
+  "https://imdb-lets-upgrade.netlify.app",
 ];
 const mongoSanitize = require("express-mongo-sanitize");
 const xss = require("xss-clean");
