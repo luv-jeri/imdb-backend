@@ -7,7 +7,11 @@ const compression = require("compression");
 const cors = require("cors");
 const cookieParser = require("cookie-parser");
 const _Error = require("./utils/_error");
-const origin = ["http://localhost:3000", "http://localhost:5173"];
+const origin = [
+  "http://localhost:3000",
+  "http://localhost:5173",
+  "https://imdb-lets-upgrade.netlify.app/",
+];
 const mongoSanitize = require("express-mongo-sanitize");
 const xss = require("xss-clean");
 const hpp = require("hpp");
